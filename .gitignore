@@ -1,0 +1,25 @@
+# Claude Code関連
+.claude/
+CLAUDE.md
+plans/
+
+# 一時ファイル
+nul
+*.tmp
+*.log
+
+# OS関連
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# エディタ関連
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# その他
+.env
+.env.local
