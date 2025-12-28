@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - yasukoga</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <h1 class="logo">yasukoga</h1>
+                <ul class="nav-links">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../index.html#about">About</a></li>
+                    <li><a href="../index.html#skills">Skills</a></li>
+                    <li><a href="../index.html#contact">Contact</a></li>
+                    <li><a href="index.html">Blog</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="blog-hero">
+            <div class="container">
+                <h2 class="section-title">Blog</h2>
+                <p class="blog-description">プロジェクトマネジメントや技術に関する記事を投稿しています</p>
+            </div>
+            <div class="wave-divider">
+                <svg viewBox="0 0 1200 150" preserveAspectRatio="none">
+                    <path d="M0,20 C300,110 500,120 650,60 C800,10 900,40 1200,100 L1200,150 L0,150 Z" fill="#ffffff"/>
+                </svg>
+            </div>
+        </section>
+
+        <section id="blog-list">
+            <div class="container">
+                <div class="blog-grid">
+                    {{ARTICLES}}
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 yasukoga. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -23,3 +23,6 @@ Desktop.ini
 # その他
 .env
 .env.local
+
+# ライブラリ
+node_modules
